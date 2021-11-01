@@ -1,19 +1,19 @@
-console.log("\n'For' Loop example\n")
-// For loop
+console.log("\n'For' example\n")
+
 for(let i=1 ; i<11 ; i++){
     console.log('2 x ',i,' = ',2*i);
 } 
 
-console.log("\n'While' Loop example\n")
-// While loop
+console.log("\n'While' example\n")
+
 let x=0;
 while(x<10){
     console.log(x);
     x++
 }
 
-console.log("\n'Do while' loop Example\n")
-// Do while loop
+console.log("\n'Do while' example\n")
+
 let y=10;
 do{
     console.log(y);
