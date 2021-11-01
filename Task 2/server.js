@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
     console.log(req.headers)
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
-    res.end('Hello World');
+    res.end('Hi there, this a server');
 });
 
 server.listen(port, hostname, () => {
